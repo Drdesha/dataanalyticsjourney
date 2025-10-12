@@ -5,46 +5,64 @@ My learning diary documenting SQL, BigQuery, and Looker Studio projects
 Welcome to my data analytics project diary!  
 This space documents my progress as I learn to use SQL, BigQuery, and Looker Studio to turn data into real insights.
 
----
+---# Data Analytics Portfolio – NCAA & TheLook SQL Project
 
-## 📘 Project 1: NCAA Top Player Rankings + TheLook E-Commerce
-
-Goal:  
-Combine data from Google’s public NCAA Basketball dataset and TheLook eCommerce dataset to help a marketing team identify which NCAA players and swimwear products to feature in a summer ad campaign.
-
-Tools Used:  
-- Google BigQuery (SQL queries)
-- Looker Studio (Dashboards & Visuals)
-- Google Cloud Platform
-
-Highlights:  
-- Queried `thelook_gcda` dataset for June 2023 swimwear sales  
-- Queried `ncaa_basketball` public dataset for top-scoring players  
-- Built visual dashboards to link athlete performance and product sales  
-
-Screenshots:  
-_(add your image files here later)_  
-![Dashboard 1](looker_screenshots/IMG_5506.jpeg)  
-![Dashboard 2](looker_screenshots/IMG_5507.jpeg)
-
-Key Insights:  
-- Top-selling products were those tied to NCAA athletes in ad creative  
-- 3-player segments outperformed baseline clickthrough by 14% (simulated data)  
-- Future recommendation: integrate time-series analysis to anticipate campaign lift  
-
-What I Learned:  
-- How to write and optimize SQL queries in BigQuery  
-- How to connect datasets across domains (sports + retail)  
-- The power of visual storytelling with Looker Studio  
+### Overview
+This project explores data from **TheLook eCommerce** dataset and the **NCAA Basketball** public dataset using **Google BigQuery** and **Looker Studio**.  
+The goal was to help a marketing team identify which NCAA athletes and swimwear products to feature in a summer ad campaign.
 
 ---
 
-## 🧾 Next Steps
-- Publish SQL scripts from this project  
-- Add a new folder for each project  
-- Continue weekly learning reflections in this repo
+### Objectives
+- Query swimwear product sales from June 2023 in the TheLook dataset.  
+- Retrieve the highest-ranking NCAA basketball players.  
+- Combine both insights to guide marketing decisions for a new product campaign.
 
 ---
 
-🧑🏽‍💻 *Authored by Dr. Desha Elliott*  
-📍 Atlanta, GA | 📊 Data & Policy Researcher | 💡 Economic Development & Analytics
+### Tools & Skills Used
+- **Google BigQuery** – SQL queries and data filtering  
+- **Looker Studio** – Dashboards and visualizations  
+- **Data Cleaning & Aggregation** – Using SELECT, WHERE, GROUP BY, ORDER BY  
+- **Exploratory Data Analysis (EDA)**  
+
+---
+
+### Project Visuals
+
+#### NCAA Top Player Rankings SQL
+![NCAA Dashboard](looker_screenshots/IMG_5506.jpeg)
+
+#### ECommerce Swimwear SQL
+![ECommerce Dashboard](looker_screenshots/IMG_5507.jpeg)
+
+#### BigQuery Custom SQL
+![BigQuery Dashboard](looker_screenshots/IMG_5508.jpeg)
+
+---
+
+### Key Insights
+- The top-selling swimwear products corresponded with the ad campaign period.  
+- NCAA players with high performance scores had the strongest audience engagement.  
+- BigQuery simplified multi-table joins and filtering large datasets efficiently.  
+
+---
+
+### What I Learned
+- How to connect public datasets from Google Cloud BigQuery.  
+- How to use SQL queries to clean and merge marketing data.  
+- How to visualize data in Looker Studio to tell a business story.  
+
+---
+
+### Next Steps
+- Add week-by-week learning logs and additional datasets.  
+- Explore predictive insights for future campaign optimization.  
+- Automate dashboard updates with scheduled queries.
+
+---
+
+### Author
+**Dr. Desha Elliott**  
+Data & Policy Researcher | Economic Development & Analytics  
+📍 Atlanta, GA & 🌎 Global 
