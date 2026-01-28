@@ -53,5 +53,6 @@ This dashboard enables stakeholders to:
 ---
 
 ## 📸 Dashboard Preview
-!(loaninsights_dashboard_012626.png)
+![Loan Insights Dashboard](../data-analytics-dashboard/loaninsights_dashboard_012626.png)
+
 
